@@ -1,0 +1,87 @@
+.all {
+    width: 100%;
+}
+.all div{
+    margin-top: 7%;
+    padding: 3%;
+}
+
+.info *{
+    color: white;
+    padding-top: 10px;
+    transition: all 5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background: #69b4a8;
+}
+
+.info u{
+    color: #19322E;
+}
+.all img{
+    position: relative;
+}
+.info img{
+    width: 60%;
+
+}
+.all h1{
+    font-size: 350%;
+    text-align: center;
+}
+.all p{
+    text-align: center;
+    font-size: 200%;
+}
+
+.all .Tema h1{
+    position: relative;
+}
+.all .Tema img{
+    animation: an 60s linear infinite;
+    transform: translateY(-160px);
+}
+.all .Tema *{
+    left: -30%;
+}
+.all .Tema p{
+    position: relative;
+}
+.all .Tema{
+    width: 75%;
+    left: 20%;
+    position: relative;
+    background-image: url("img/3.png");
+    background-size: 100%;
+}
+
+@keyframes an {
+    0%{
+        transform: translateY(-160px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-160px);
+    }
+}
+.carr{
+    background: #69b4a8;
+    width: 100%;
+    text-align: center;
+    transition: all .3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.carr .q1{
+    z-index: 1;
+    background: #19322E;
+    text-align: center;
+    transform: rotate(15deg);
+    position: relative;
+}
+.carr .q2{
+    background: #19322E;
+    z-index: 2;
+    text-align: center;
+    position: relative;
+}
+
+

@@ -1,0 +1,25 @@
+.game{
+    width: 100%;
+    background-color: #62a59a;
+}
+.layout{
+    background: #dfdfdf;
+    width: 90%;
+}
+.player{
+    position: absolute;
+    width: 1px;
+    left: 0px;
+    border-radius: 50px;
+    border: 2px solid #19322E;
+    background: transparent;
+}
+.btp{
+    border: 0px solid transparent;
+    padding: 1%;
+    margin-top: 10px;
+    background-color: #62a59a;
+    width: 20%;
+    border-radius: px;
+}
+

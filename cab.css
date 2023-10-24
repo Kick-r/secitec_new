@@ -1,0 +1,106 @@
+@font-face {
+    font-family: title;
+    src: url("font/ZEBRAZIL\ -\ Zarni.ttf");
+}
+
+
+body {
+    transition: all 0.3s linear;
+    background-color: #19322E;
+}
+
+body h1 {
+    font-family: title;
+}
+
+
+body p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cab {
+    background-image: url("img/WhatsApp Image 2023-10-02 at 18.59.21.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+
+}
+
+.cab .fundo {
+    width: 100%;
+    height: 50%;
+}
+
+.cab .bt {
+    background: transparent;
+    border: 2px solid #19322E;
+    border-radius: 15px;
+    padding: 1.5%;
+    transition: all 0.3s linear;
+    position: absolute;
+    left: 30%;
+    transform: rotate(360deg);
+    transform: translateY(100px);
+    top: 80%;
+}
+
+.cab .bt:hover {
+    background: #19322E;
+    color: white;
+    padding: 1.2%;
+    box-shadow: 0px 0px 30px #000;
+    border-radius: 5px 15px;
+}
+
+ .barra span {
+    margin-left: 4%;
+    color: #000;
+    font-size: 130%; 
+}
+ .barra span img{
+    width: 10%;
+    position: fixed;
+    display: none;
+    top: 50px;
+ }
+ .barra #sp1 .src1{
+    left: 25%;
+ }
+ .barra #sp2 .src2{
+    left: 33%;
+ }
+ .barra #sp3 .src3{
+    left: 41%;
+ }
+ .barra #sp4 .src4{
+    left: 41%;
+ }
+ .barra span:hover{
+    color: #494848;
+}
+
+.barra #sp1:hover .src1{
+    display: block;
+}
+.barra #sp2:hover .src2{
+    display: block;
+}
+.barra #sp3:hover .src3{
+    display: block;
+}
+.barra #sp4:hover .src4{
+    display: block;
+}
+
+ .barra {
+    position: fixed;
+    background: rgba(124, 125, 125, 0.4);
+    top: 1%;
+    width: 98.5%;
+    padding: 0.4%;
+    padding-bottom: 0.3%;
+    text-align: center;
+}
